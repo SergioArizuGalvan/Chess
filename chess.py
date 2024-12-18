@@ -42,7 +42,7 @@ def tus_piezas(player, pos_inicio, pos_final, tablero):
     tablero[x_ini][y_ini]="."
     tablero[x_fin][y_fin]=pieza
     return "MOVIMIENTO EXITOSO"
-
+ 
 
 def user_input(movimineto):
     inicio, final = movimiento.split()
